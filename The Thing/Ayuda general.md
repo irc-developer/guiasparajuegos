@@ -107,11 +107,11 @@ Dos tipos: máximo uno de cada tipo por fase. El H objetivo muestra su rol al ac
 Positivo: pasa a ser AE.
 Negativo: pasa al puesto verde en el track de sospecha.
 
-## *6. Consumición de Alimentos (pag 16):* 
+## *7. Consumición de Alimentos (pag 16):* 
 Se descartan todas las Fichas de Alinmento de la cocina (independientemente del número de jugadores). Si no hubiera comida en la cocina, se descartan auto 4 de la despensa. Si no queda en ningún sitio: -1 a la mano máxima de cartas.
 
-## *7. Movimiento de perros y líder(pag 16):* 
-Se reparten los perros que haya según las cartas de localización. Si sale la Perrera se liberan todos los que estén encerrados (opcional en primeras partidas).
+## *8. Movimiento de perros y líder(pag 16):* 
+Se reparten los perros que haya según las cartas de localización. Si sale la Perrera se liberan todos los que estén encerrados (opcional en primeras partidas). Si la ficha de Líder se ha cogido, se pasa la tarjeta.
 
 
 # ENCUENTROS (pág 8)
@@ -140,30 +140,60 @@ Prueba de Contagio:
 - P: de bolsa violeta se saca un token y se mira, adapta el rol que tengas al resultado. Vuelve a la bolsa.
 - H: cada uno mira **una** Ficha de Contagio del otro y se adapta su rol (aunque no cambie). Cada jugador escoge cual mirar.
 
-Independientemente del resultado se **Reajustan las Cartas de Rol**
+Cada implicado sube en uno el track de Sospecha. Independientemente del resultado se **Reajustan las Cartas de Rol**.
 
 
 # EXPONERTE COMO ALIENÍGENA.
-Todos los AE controlan el mazo de ubicación. Descarta todas sus cartas, fichas y si es Líder pasa al de la izquierda. Todos controlan ahora el mazo de Localizaciones y la fuerza alienígena (la mitad de jugadores). A partir del primero, cada AE extra o H asimilado añade uno de FA.
+Todos los AE controlan el mazo de ubicación. Descarta todas sus cartas, fichas y si es Líder pasa al de la izquierda. Todos controlan ahora el mazo de Localizaciones y la fuerza alienígena (la mitad de jugadores). A partir del primero, cada AE extra o S asimilado añade uno de FA.
  
 
 # UBICACIONES
 
+Verdes V: 3H* + AE + P. Azul A: Sin límite de H. Morado M: P y AE.
+*Sin límite cuando se escapa.
+
+Sólo en Estación Meterológica pone el FC donde quiere procedente del Almacén.
+
+| Ubic | Color | Uso | Sabotaje Carta | Sabotaje Alien | Reparación |Boni Coop | Destruible
+|----------|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
+| Armería | V | 2C arma, devuelve 1| Exilia 1 C sin mirar | Exilia F C sin mirar  | - | N | N
+| Helicóptero de la Base | V  | +1 FC RE o E con llaves y sin daño| +1D | +F D  | 1 | S | N
+| Sala de Calderas|V|+1FC RE|+1D| +F D | 1 | S | S 
+|Sala de Caldera|V|1FC de AL|+1D|+F D |1|S  | S 
+|Sala de Radio|V|Reparada = SOS (usar)| +1D | +F D  | 1 | S | N
+|Almacén|V| 2C Objeto, devuelve 1| Exilia 1 C sin mirar | Exilia F C sin mirar  | - | N | N
+|Dormitorio|A| Descarta N cartas, roba N. Tumba H|-|-|-|-| - 
+|Cobertizo(Mr.Quitanieves)|V|+1FC RE o E con llaves y sin daño| +1D | +F D  | 1 | S | N
+|Sala del Generador|V| +1 FC de AL, 2D = Ficha Fallo Electrico| +1D | +F D  | 1 | S | N
+|Jaula|M|Encierra P, si hay 1 aqui poned C U|-|-|-|-|-  
+|Cocina y Despensa|V|+2FC|-2 FC| -2*F | -| N|S*
+||V|||||  
+||V|||||  
+||V|||||  
+|  |  |  |  |  
 
 
-
+*Cuando no quedna FC
 
 
 ## Terminología: 
-- Cartas Activas: cartas que están en el montón de Líder.
-- Expuesto: jugador que, voluntariamente o no (test), ha revelado su rol.
-- Oscuridad: en fase 4 en vez de escoger carta de acción se coge una aleatoria del jugador a la derecha y se pone frente a Líder.
-- AE: Alienígena Expuesto. AEs plural.
-- CaC: Armas cuerpo a cuerpo
-- H: humano.
-- P: perro
 - A: Alienígena encubierto.
-- Reajustar Cartas de Rol: Coge su rol (el que está debajo de su carta) y el otro, los baraja, hace fantasía y deja el correcto debajo.
-- Ubic: ubicación.
+- AE: Alienígena Expuesto. AEs plural.
+- AL: Almacén
+- C: Cartas.
+- CaC: Armas cuerpo a cuerpo
+- Cartas Activas: cartas que están en el montón de Líder.
+- D: Daños.
+- E: Escapar
+- Expuesto: jugador que, voluntariamente o no (test), ha revelado su rol.
+- F: Fuerza del AE en una ubicación.
 - FA: Fuerza alienígena.
-- S: Seres (perros y humanos).
+- FC: Ficha Combustible,
+- H: humano.
+- Oscuridad: en fase 4 en vez de escoger carta de acción se coge una aleatoria del jugador a la derecha y se pone frente a Líder.
+- P: perro
+- RE: Reserva Externa. Caja fuera del juego (fuera del complejo), no en Almacén
+- Reajustar Cartas de Rol: Coge su rol (el que está debajo de su carta) y el otro, los baraja, hace fantasía y deja el correcto debajo.
+- S: Seres (perros y humanos o alienígenas encubiertos).
+- UbiUc: ubicación.
+- FC: Fichas Comida (SPM)
