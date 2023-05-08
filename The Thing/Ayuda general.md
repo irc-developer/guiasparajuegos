@@ -20,18 +20,17 @@ Notación: N = número de jugadores.
 15. Empieza el último que vio The Thing.
 
 
-| Cartas | >=5  | 6 | 7 | 8 |
-|----------|:----------:|:----------:|:----------:|:----------:|
-| Armas CaC | 3 |4| 4|  4|
-| Dinamitas/Molotov |  3| 3 | 3 | 4|
-| Lanzallamas | 1 | 1 | 1 | 2 |
-| Pistola | 1 | 1 | 2 | 2 |
-| *Cable* | 1 | 1 | 2 | 2 |
-| *Combustible* | 2 | 2 |3  | 4  |
-| *Herramienta* | 2 | 2 | 3 | 3  |
-| *Linterna* | 2 | 3 | 3 | 3 |
-| *Llave* | 2 | 2 |2  | 2 |
-| *Llave* | 2 | 2 |2  | 2 |
+| Cartas | >=5  | 6 | 7 | 8 | Descripción
+|----------|:----------:|:----------:|:----------:|:----------:|:----------:|
+| Armas CaC | 3 |4| 4|  4| Exilia y evita un único Encuentro H
+| Dinamitas/Molotov |  3| 3 | 3 | 4| Descarta primera CA y descártala: quema ubicación // elimina una ficha FA
+| Lanzallamas | 1 | 1 | 1 | 2 | Seis cargas. Igual que Dinamita/Molotov pero descartando una carga. Gasta carga: evita 1 Encuentro H
+| Pistola | 1 | 1 | 2 | 2 | Siempre puedes evitar un encuentro H.
+| *Cable* | 1 | 1 | 2 | 2 | Permite hacer Test B con lanzallamas.
+| *Combustible* | 2 | 2 |3  | 4  | +1 FC AL en tu U (AG)
+| *Herramienta* | 2 | 2 | 3 | 3  | Repara 1D en U (AG)
+| *Linterna* | 2 | 3 | 3 | 3 | Ignora la Oscuridad
+| *Llave* | 2 | 2 |2  | 2 | Permite arrancar el quitanieves o la 
 
 
 
@@ -45,11 +44,14 @@ Notación: N = número de jugadores.
 | Helicóptero de Base | N-2 |
 | Cobertizo | 1 |
 | Sala de Radio | N |
-## * (pag.):*
+
+# CONDICIONES DE VICTORIA
+- H: **TODOS** deben escapar desde quitanieves, helicóptero de la Base o con Helicóptero de Rescate SIN NINGÚN A CON ELLOS. En Quitanieves y el Helicóptero de la Base el que tenga las llaves sube primero y permite a los siguientes subir. Cuando otro sube, revela su rol automáticamente. En HELICOPTERO DE RESCATE el que tiene MENOR Sospecha en el track se sube primero.
+- A: Asimilando/matando a todos menos un, yéndose de la base solo o con gente.
 
 # FASES
 ## *1. Condiciones climatológicas (pag 6):* 
-Líder lanza el dado y define el clima. Si el dado estaba en la *Estación Meterológica* (por acción de la ubicación) **puede quedarse con el nuevo resultado o con el anterior**.
+Líder lanza el dado y define el clima. Si el dado estaba en la *Estación Meterológica* (por acción de la ubicación) **puede quedarse con el nuevo resultado o con el anterior**. IMPORTANTE: si el SOS ha sido lanzado, se mueve el HELICOPTERO DE RESCATE tantas casillas como diga.
 ## *2. Mantenimiento de la base y avance del helicóptero de rescate (pag 6):*
 Se consume combustible en *Generador* y *Calderas* según clima (ver 1). Si no se puede o no quedan suficientes se quitan todas y las localizaciones sufren daños igual a lo que falte hasta el máximo de su localización.
 ## *3. Acciones de AE (pag 7):*
@@ -60,7 +62,7 @@ Cada jugador **roba** cartas de acción hasta tener su tope (3 o 2 si no hay ali
 ### *4.1 Movimiento de personaje y planificación de acciones*:
 Empieza el de la izquierda del Líder. Cada jugador **debe** moverse a otra localización y se pone una carta de acción de su mano* en el montón de Líder (*Cartas Activas*). No se puede decir exactamente qué se pone, sólo info vaga. Si en la localización está la ficha de líder, se la queda y pasa a serlo el siguiente turno.
 
-**IMPORTANTE**: si está en **Oscuridad** (ficha de Fallo Eléctrico en *Generador*) ha de resolverse como se describe abajo.
+**IMPORTANTE**: si está en **Oscuridad** (ficha de Fallo Eléctrico en *Generador*) se roba una carta del de la derecha y se pone en el montón.
 
 En *Dormitorio* puedes tumbar tu personaje, descartar todas tus cartas y robar el mismo número. Baraja el descarte con el mazo.
 
@@ -148,52 +150,51 @@ Todos los AE controlan el mazo de ubicación. Descarta todas sus cartas, fichas 
  
 
 # UBICACIONES
-
-Verdes V: 3H* + AE + P. Azul A: Sin límite de H. Morado M: P y AE.
+Se elimina "Sala de" para abreviar. **Verdes** V: 3H* + AE + P. **Azul** A: Sin límite de H. **Morado** M: P y AE.
 *Sin límite cuando se escapa.
 
 Sólo en Estación Meterológica pone el FC donde quiere procedente del Almacén.
 
 | Ubic | Color | Uso | Sabotaje Carta | Sabotaje Alien | Reparación |Boni Coop | Destruible
 |----------|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|
-| Armería | V | 2C arma, devuelve 1| Exilia 1 C sin mirar | Exilia F C sin mirar  | - | N | N
-| Helicóptero de la Base | V  | +1 FC RE o E con llaves y sin daño| +1D | +F D  | 1 | S | N
-| Sala de Calderas|V|+1FC RE|+1D| +F D | 1 | S | S 
-|Sala de Caldera|V|1FC de AL|+1D|+F D |1|S  | S 
-|Sala de Radio|V|Reparada = SOS (usar)| +1D | +F D  | 1 | S | N
-|Almacén|V| 2C Objeto, devuelve 1| Exilia 1 C sin mirar | Exilia F C sin mirar  | - | N | N
-|Dormitorio|A| Descarta N cartas, roba N. Tumba H|-|-|-|-| - 
+|Almacén|V| 2C Objeto, devuelve. Oculto| Exilia 1 C sin mirar | Exilia F C sin mirar  | - | N | N
+|Armería | V | 2C arma, devuelve 1 Oculta - Lanzallamas| Exilia 1 C sin mirar | Exilia F C sin mirar  | - | N | N
+|Caldera|V|1FC de AL|+1D|+F D |1|S  | S 
 |Cobertizo(Mr.Quitanieves)|V|+1FC RE o E con llaves y sin daño| +1D | +F D  | 1 | S | N
-|Sala del Generador|V| +1 FC de AL, 2D = Ficha Fallo Electrico| +1D | +F D  | 1 | S | N
+|Cocina y Despensa|V|+2SPM del Almacen|-2 SPM| -2*F SPM| -| N|S*
+|Dormitorio|A| Descarta N cartas, roba N. Tumba H|-|-|-|-| - 
+|Estación metereológica|V|Tira DC (se queda aquí) +1FC AL  Cualquier Lugar|-1FC AL|-F FC AL|- |N|N  
+|Generador|V| +1 FC de AL, 2D = Ficha Fallo Electrico| +1D | +F D  | 1 | S | N
+|Helicóptero de la Base | V  | +1 FC RE o E con llaves y sin daño| +1D | +F D  | 1 | S | N
 |Jaula|M|Encierra P, si hay 1 aqui poned C U|-|-|-|-|-  
-|Cocina y Despensa|V|+2FC|-2 FC| -2*F | -| N|S*
-||V|||||  
-||V|||||  
-||V|||||  
-|  |  |  |  |  
+|Laboratorio |V|Robas 1 FL| -1 FL VERDE|-FL*F |-|S|N 
+|Radio|V|Reparada = SOS (usar)| +1D | +F D  | 1 | S | N
+|Recreativos|A|Votaciones e intercambios|-|-|-|-|-  
 
-
-*Cuando no quedna FC
+*Cuando no queda SPM
 
 
 ## Terminología: 
 - A: Alienígena encubierto.
+- AG: Acción gratuíta (se ejecuta en tu ubicación y no consume acción).
 - AE: Alienígena Expuesto. AEs plural.
 - AL: Almacén
 - C: Cartas.
 - CaC: Armas cuerpo a cuerpo
 - Cartas Activas: cartas que están en el montón de Líder.
 - D: Daños.
+- DC: Dado de Clima.
 - E: Escapar
 - Expuesto: jugador que, voluntariamente o no (test), ha revelado su rol.
 - F: Fuerza del AE en una ubicación.
 - FA: Fuerza alienígena.
-- FC: Ficha Combustible,
+- FC: Ficha Combustible.
+- FL: Ficha laboratorio TEST A.
 - H: humano.
 - Oscuridad: en fase 4 en vez de escoger carta de acción se coge una aleatoria del jugador a la derecha y se pone frente a Líder.
 - P: perro
 - RE: Reserva Externa. Caja fuera del juego (fuera del complejo), no en Almacén
 - Reajustar Cartas de Rol: Coge su rol (el que está debajo de su carta) y el otro, los baraja, hace fantasía y deja el correcto debajo.
 - S: Seres (perros y humanos o alienígenas encubiertos).
+- SPM: Fichas Comida
 - UbiUc: ubicación.
-- FC: Fichas Comida (SPM)
