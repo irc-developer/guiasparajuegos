@@ -162,7 +162,7 @@ Sólo en Estación Meterológica pone el FC donde quiere procedente del Almacén
 |Caldera|V|1FC de AL|+1D|+F D |1|S  | S 
 |Cobertizo(Mr.Quitanieves)|V|+1FC RE o E con llaves y sin daño| +1D | +F D  | 1 | S | N
 |Cocina y Despensa|V|+2SPM del Almacen|-2 SPM| -2*F SPM| -| N|S*
-|Dormitorio|A| Descarta N cartas, roba N. Tumba H|-|-|-|-| - 
+|Dormitorio|A| Descarta N cartas, **busca cualquier carta hasta** N. Tumba H|-|-|-|-| - 
 |Estación metereológica|V|Tira DC (se queda aquí) +1FC AL  Cualquier Lugar|-1FC AL|-F FC AL|- |N|N  
 |Generador|V| +1 FC de AL, 2D = Ficha Fallo Electrico| +1D | +F D  | 1 | S | N
 |Helicóptero de la Base | V  | +1 FC RE o E con llaves y sin daño| +1D | +F D  | 1 | S | N
