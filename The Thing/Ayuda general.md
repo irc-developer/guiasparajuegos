@@ -1,18 +1,14 @@
 # Montaje
-
-Notación: N = número de jugadores.
-
 1. Poner Tabla Clima según jugadores.
 2. Rellenar *Generador* al máximo y *Calderas* con 4 fichas de **Combustible**.
 3. *Despensa*: 16 fichas.
 4. Revela la primera carta de ubicación para poner la ficha de líder (no perreras).
 5. 1 Ficha de daño en *Cobertizo* y N-2 en *Helicóptero de Base*.
-6. Montaje según jugadores: (ver tablas)
-7. *Sala de Radio*: N daños.
-8. Bolsa Laboratorio (verde): fichas de sangre (verde) 2N. Fichas fracaso (negras) 3N.
+6. Montaje según jugadores: (ver tablas). 
+8. Bolsa Laboratorio (verde): 2N FL verdes + 3N FL negras.
 9. Barajar cartas de acción.
-10. Jugadores: personaje, ficha sospecha (transparente), 3 fichas de contagio, 2 cartas de rol, 2 cartas de acción aleatorias.
-11. Determinar alien: Coger ficha perro contagiado y N-1 perros no contagiados, se dan a los jugadores, coge su rol correspondiente y lo pone debajo de la ficha.
+10. Jugadores: personaje, ficha sospecha (transparente), 3 fichas de contagio, 2 cartas de rol, 3 cartas de acción aleatorias.
+11. Determinar alien: N FP, una A. Se cogen al azar.
 12. Fichas de perro a la bolsa contagio (rosa).
 13. El resto del daño en *Sala de Operaciones*.
 14. Los perros quedan a parte y en la última fase del primer turno **entrarán** libres.
@@ -23,8 +19,8 @@ Notación: N = número de jugadores.
 | Cartas | >=5  | 6 | 7 | 8 | Descripción
 |----------|:----------:|:----------:|:----------:|:----------:|:----------:|
 | Armas CaC | 3 |4| 4|  4| Exilia y evita un único Encuentro H
-| Dinamitas/Molotov |  3| 3 | 3 | 4| Descarta primera CA y descártala: quema ubicación // elimina una ficha FA
-| Lanzallamas | 1 | 1 | 1 | 2 | Seis cargas. Igual que Dinamita/Molotov pero descartando una carga. Gasta carga: evita 1 Encuentro H
+| Dinamitas/Molotov |  3| 3 | 3 | 4| Mata AE. Quema U.
+| Lanzallamas | 1 | 1 | 1 | 2 | Seis cargas. Mata AE. Quema U. Evita Encuentros
 | Pistola | 1 | 1 | 2 | 2 | Siempre puedes evitar un encuentro H.
 | *Cable* | 1 | 1 | 2 | 2 | Permite hacer Test B con lanzallamas.
 | *Combustible* | 2 | 2 |3  | 4  | +1 FC AL en tu U (AG)
@@ -41,21 +37,21 @@ Notación: N = número de jugadores.
 
 | Ubicación | Daños |
 |----------|:----------:| 
-| Helicóptero de Base | N-2 |
+| Helicóptero Base | N-2 |
 | Cobertizo | 1 |
 | Sala de Radio | N |
 
 # CONDICIONES DE VICTORIA
 - H: **TODOS** deben escapar desde quitanieves, helicóptero de la Base o con Helicóptero de Rescate SIN NINGÚN A CON ELLOS. En Quitanieves y el Helicóptero de la Base el que tenga las llaves sube primero y permite a los siguientes subir. Cuando otro sube, revela su rol automáticamente. En HELICOPTERO DE RESCATE el que tiene MENOR Sospecha en el track se sube primero.
-- A: Asimilando/matando a todos menos un, yéndose de la base solo o con gente.
+- A y AE: Asimilando/matando a H-1 o escapando.
 
 # FASES
 ## *1. Condiciones climatológicas (pag 6):* 
 Líder lanza el dado y define el clima. Si el dado estaba en la *Estación Meterológica* (por acción de la ubicación) **puede quedarse con el nuevo resultado o con el anterior**. IMPORTANTE: si el SOS ha sido lanzado, se mueve el HELICOPTERO DE RESCATE tantas casillas como diga.
 ## *2. Mantenimiento de la base y avance del helicóptero de rescate (pag 6):*
-Se consume combustible en *Generador* y *Calderas* según clima (ver 1). Si no se puede o no quedan suficientes se quitan todas y las localizaciones sufren daños igual a lo que falte hasta el máximo de su localización.
+Gastar FC de *Generador* y *Calderas* según clima (ver 1). D si no hay suficiente FC, se daña tanto como FC falten.
 ## *3. Acciones de AE (pag 7):*
-El jugador alienígena escoge hasta 4 localizaciones bocabajo y decide cuanta fuerza alienígena pone (mínimo uno de un total de cuatro).
+El jugador alienígena **escoge** Ls, las pone bocaabajo y decide cuanta de su FA pone (mínimo uno).
 ## *4. Robar cartas de acción y jugar acciones de personaje (pag.8)*:
 Cada jugador **roba** cartas de acción hasta tener su tope (3 o 2 si no hay alimentos). Cuando no queden se baraja el descarte. Líder coge **una y sin mirarla la coloca en la hoja de líder**.
 
@@ -122,7 +118,7 @@ Una vez todos hayan jugado su turno se comprueban si hay Encuentro en cada ubica
 Orden: AEs > resto.
 
 1. AEs: si está expuesto, revela las cartas del punto 3 y pone los bichitos. Si está solo puede sabotear la ubicación (ver SECCIONES) sino se resuelve lo siguiente:
-- AE < H: AE huye
+- FA < H: FA huye
 - AE > H: Asimila un S. Si lo hace, FA de 1 en la localización. El resto escapa a la zona recreativa. Si no asimila, daña la ubicación.
 - AE = H: todos se tumban 
 2. Si se tiene un arma puede evitarse el Encuentro con uno de los **entes** que está en su ubicación: Pistolas (infintos usos), CaC (exilia la carta), Lanzallamas (gasta una carga). Si hay más de un **ente** se resolverá el Encuentro con los que queden.
